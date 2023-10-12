@@ -12,11 +12,13 @@
         <meta name="author" content="docker-mailserver (Github Organization)">
       
       
-        <link rel="canonical" href="https://docker-mailserver.github.io/docker-mailserver/edge/contributing/issues-and-pull-requests/">
+        <link rel="canonical" href="https://docker-mailserver.github.io/docker-mailserver/edge/contributing/general/">
       
       
-        <link rel="prev" href="../tests/">
+        <link rel="prev" href="../../faq/">
       
+      
+        <link rel="next" href="../tests/">
       
       
       <link rel="icon" href="../../assets/logo/favicon-32x32.png">
@@ -24,7 +26,7 @@
     
     
       
-        <title>Contributing | Issues and Pull Requests - Docker Mailserver</title>
+        <title>Contributing | General Information - Docker Mailserver</title>
       
     
     
@@ -81,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#opening-an-issue" class="md-skip">
+        <a href="#coding-style" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Contributing | Issues and Pull Requests
+              Contributing | General Information
             
           </span>
         </div>
@@ -339,7 +341,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../general/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
   Contributing
@@ -1682,9 +1684,27 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../general/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    General Information
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1693,6 +1713,38 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#coding-style" class="md-nav__link">
+    Coding Style
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    Documentation
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1722,27 +1774,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Issues and Pull Requests
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../issues-and-pull-requests/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1751,64 +1785,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#opening-an-issue" class="md-nav__link">
-    Opening an Issue
-  </a>
-  
-    <nav class="md-nav" aria-label="Opening an Issue">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#filing-a-bug-report" class="md-nav__link">
-    Filing a Bug Report
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pull-requests" class="md-nav__link">
-    Pull Requests
-  </a>
-  
-    <nav class="md-nav" aria-label="Pull Requests">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#submit-a-pull-request" class="md-nav__link">
-    Submit a Pull-Request
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1884,42 +1860,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#opening-an-issue" class="md-nav__link">
-    Opening an Issue
+  <a href="#coding-style" class="md-nav__link">
+    Coding Style
   </a>
-  
-    <nav class="md-nav" aria-label="Opening an Issue">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#filing-a-bug-report" class="md-nav__link">
-    Filing a Bug Report
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#pull-requests" class="md-nav__link">
-    Pull Requests
+  <a href="#documentation" class="md-nav__link">
+    Documentation
   </a>
-  
-    <nav class="md-nav" aria-label="Pull Requests">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#submit-a-pull-request" class="md-nav__link">
-    Submit a Pull-Request
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1938,7 +1888,7 @@
                   
 
   
-    <a href="https://github.com/docker-mailserver/docker-mailserver/edit/master/docs/content/contributing/issues-and-pull-requests.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/docker-mailserver/docker-mailserver/edit/master/docs/content/contributing/general.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -1947,50 +1897,29 @@
     
       
     
-    <a href="https://github.com/docker-mailserver/docker-mailserver/raw/master/docs/content/contributing/issues-and-pull-requests.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/docker-mailserver/docker-mailserver/raw/master/docs/content/contributing/general.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
     </a>
   
 
 
-  <h1>Issues and Pull Requests</h1>
+  <h1>General Information</h1>
 
-<p>This project is Open Source. That means that you can contribute on enhancements, bug fixing or improving the documentation.</p>
-<h2 id="opening-an-issue"><a class="toclink" href="#opening-an-issue">Opening an Issue</a></h2>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p><strong>Before opening an issue</strong>, read the <a href="https://github.com/docker-mailserver/docker-mailserver/blob/master/README.md"><code>README</code></a> carefully, study the docs for your version (maybe <a href="https://docker-mailserver.github.io/docker-mailserver/latest">latest</a>), the Postfix/Dovecot documentation and your search engine you trust. The issue tracker is not meant to be used for unrelated questions!</p>
-</div>
-<p>When opening an issue, please provide details use case to let the community reproduce your problem. Please start DMS with the environment variable <code>LOG_LEVEL</code> set to <code>debug</code> or <code>trace</code> and paste the output into the issue.</p>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p><strong>Use the issue templates</strong> to provide the necessary information. Issues which do not use these templates are not worked on and closed.</p>
-</div>
-<p>By raising issues, I agree to these terms and I understand, that the rules set for the issue tracker will help both maintainers as well as everyone to find a solution.</p>
-<p>Maintainers take the time to improve on this project and help by solving issues together. It is therefore expected from others to make an effort and <strong>comply with the rules</strong>.</p>
-<h3 id="filing-a-bug-report"><a class="toclink" href="#filing-a-bug-report">Filing a Bug Report</a></h3>
-<p>Thank you for participating in this project and reporting a bug. Docker Mail Server (DMS) is a community-driven project, and each contribution counts!</p>
-<p>Maintainers and moderators are volunteers. We greatly appreciate reports that take the time to provide detailed information via the template, enabling us to help you in the best and quickest way. Ignoring the template provided may seem easier, but discourages receiving any support (<em>via assignment of the label <code>meta/no template - no support</code></em>).</p>
-<p>Markdown formatting can be used in almost all text fields (<em>unless stated otherwise in the description</em>).</p>
-<p>Be as precise as possible, and if in doubt, it's best to add more information that too few.</p>
-<p>When an option is marked with "not officially supported" / "unsupported", then support is dependent on availability from specific maintainers.</p>
-<h2 id="pull-requests"><a class="toclink" href="#pull-requests">Pull Requests</a></h2>
-<div class="admonition question">
-<p class="admonition-title">Motivation</p>
-<p>You want to add a feature? Feel free to start creating an issue explaining what you want to do and how you're thinking doing it. Other users may have the same need and collaboration may lead to better results.</p>
-</div>
-<h3 id="submit-a-pull-request"><a class="toclink" href="#submit-a-pull-request">Submit a Pull-Request</a></h3>
-<p>The development workflow is the following:</p>
+<h2 id="coding-style"><a class="toclink" href="#coding-style">Coding Style</a></h2>
+<p>When refactoring, writing or altering scripts or other files, adhere to these rules:</p>
 <ol>
-<li>Fork the project and clone your fork with <code>git clone --recurse-submodules ...</code> or run <code>git submodule update --init --recursive</code> after you cloned your fork</li>
-<li>Write the code that is needed :D</li>
-<li>Add integration tests if necessary</li>
-<li><a href="../general/#tests">Prepare your environment and run linting and tests</a></li>
-<li>Document your improvements if necessary (e.g. if you introduced new environment variables, describe those in the <a href="../../config/environment/">ENV documentation</a>) and add your changes the changelog under the "Unreleased" section</li>
-<li><a href="https://help.github.com/articles/closing-issues-via-commit-messages/">Commit</a> (and <a href="https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key">sign your commit</a>), push and create a pull-request to merge into <code>master</code>. Please <strong>use the pull-request template</strong> to provide a minimum of contextual information and make sure to meet the requirements of the checklist.</li>
+<li><strong>Adjust your style of coding to the style that is already present</strong>! Even if you do not like it, this is due to consistency. There was a lot of work involved in making all scripts consistent.</li>
+<li><strong>Use <code>shellcheck</code> to check your scripts</strong>! Your contributions are checked by GitHub Actions too, so you will need to do this. You can <strong>lint your work with <code>make lint</code></strong> to check against all targets.</li>
+<li><strong>Use the provided <code>.editorconfig</code></strong> file.</li>
+<li>Use <code>/bin/bash</code> instead of <code>/bin/sh</code> in scripts</li>
 </ol>
-<p>Pull requests are automatically tested against the CI and will be reviewed when tests pass. When your changes are validated, your branch is merged. CI builds the new <code>:edge</code> image immediately and your changes will be includes in the next version release.</p>
+<h2 id="documentation"><a class="toclink" href="#documentation">Documentation</a></h2>
+<p>Make sure to select <code>edge</code> in the dropdown menu at the top. Navigate to the page you would like to edit and click the edit button in the top right. This allows you to make changes and create a pull-request.</p>
+<p>Alternatively you can make the changes locally. For that you'll need to have Docker installed. Navigate into the <code>docs/</code> directory. Then run:</p>
+<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>-it<span class="w"> </span>-p<span class="w"> </span><span class="m">8000</span>:8000<span class="w"> </span>-v<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">PWD</span><span class="si">}</span><span class="s2">:/docs&quot;</span><span class="w"> </span>squidfunk/mkdocs-material
+</code></pre></div>
+<p>This serves the documentation on your local machine on port <code>8000</code>. Each change will be hot-reloaded onto the page you view, just edit, save and look at the result.</p>
 
 
 
