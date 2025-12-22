@@ -25,7 +25,7 @@ jobs:
 
       # Retrieve the artifact uploaded from `docs-preview-prepare.yml` workflow run that triggered this deployment
       - name: 'Download build artifact'
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: preview-build
           github-token: ${{ secrets.GITHUB_TOKEN }}
